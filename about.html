@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | RainInsight AI</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-blue-900 via-blue-800 to-blue-900 text-white min-h-screen flex flex-col">
+
+  <!-- Navbar -->
+  <nav class="flex items-center justify-between px-8 py-4 bg-blue-800 bg-opacity-70 shadow-md">
+    <h1 class="text-2xl font-bold text-cyan-400">RainInsight AI</h1>
+    <div class="space-x-6">
+      <a href="/" class="hover:text-cyan-400">Home</a>
+      <a href="/predict" class="hover:text-cyan-400">Predict</a>
+      <a href="/about" class="text-cyan-400 font-semibold">About</a>
+    </div>
+  </nav>
+
+  <!-- About Section -->
+  <section class="flex-grow px-8 md:px-20 py-12">
+    <div class="max-w-4xl mx-auto">
+      <h1 class="text-4xl font-bold text-cyan-400 mb-6 text-center">About RainInsight AI</h1>
+      <p class="text-gray-300 text-lg leading-relaxed mb-8 text-center">
+        RainInsight AI is an advanced weather prediction platform built to forecast rainfall 
+        based on critical meteorological and environmental parameters. 
+        Using state-of-the-art machine learning models, it helps users, researchers, and farmers 
+        anticipate rainfall patterns with high accuracy and real-time responsiveness.
+      </p>
+
+      <div class="grid md:grid-cols-2 gap-8 mt-12">
+        <!-- Left: Image -->
+        <div class="flex justify-center items-center">
+          <img src="https://cdn-icons-png.flaticon.com/512/4150/4150897.png"
+               alt="Rain Prediction AI"
+               class="w-72 md:w-96 drop-shadow-xl rounded-xl">
+        </div>
+
+        <!-- Right: Info -->
+        <div>
+          <h2 class="text-2xl font-semibold text-cyan-400 mb-4">How It Works</h2>
+          <ul class="list-disc pl-5 text-gray-300 space-y-2">
+            <li>The system collects key weather indicators like temperature, humidity, pressure, and wind speed.</li>
+            <li>These parameters are processed through a trained machine learning algorithm.</li>
+            <li>The model analyzes patterns and predicts the likelihood and intensity of rainfall.</li>
+            <li>All predictions are quick, accurate, and privacy-safe — no personal data is stored.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Mission -->
+      <div class="mt-16 text-center">
+        <h2 class="text-2xl font-semibold text-cyan-400 mb-3">Our Mission</h2>
+        <p class="text-gray-300 max-w-3xl mx-auto leading-relaxed">
+          Our mission is to empower communities, farmers, and researchers with accurate and 
+          data-driven rainfall forecasts. By leveraging Artificial Intelligence, RainInsight AI 
+          aims to support sustainable agriculture, improve water resource management, and 
+          minimize the impact of unpredictable weather conditions on daily life and the economy.
+        </p>
+      </div>
+
+      <!-- Team -->
+      <div class="mt-16 text-center">
+        <h2 class="text-2xl font-semibold text-cyan-400 mb-3">Meet the Team</h2>
+        <div class="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto mt-6">
+          <div class="p-6 bg-blue-700 rounded-xl shadow-md">
+            <h3 class="text-lg font-semibold text-cyan-300 mb-1">Sandeep yantrapragada</h3>
+            <p class="text-gray-300 text-sm">Project Lead & ML Developer</p>
+          </div>
+          <div class="p-6 bg-blue-700 rounded-xl shadow-md">
+            <h3 class="text-lg font-semibold text-cyan-300 mb-1">Climate Data Team</h3>
+            <p class="text-gray-300 text-sm">Data Collection & Preprocessing</p>
+          </div>
+          <div class="p-6 bg-blue-700 rounded-xl shadow-md">
+            <h3 class="text-lg font-semibold text-cyan-300 mb-1">Web Development Team</h3>
+            <p class="text-gray-300 text-sm">Flask Backend & UI Design</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-6 text-center text-gray-300 text-sm bg-blue-800 mt-auto">
+    © 2025 RainInsight AI | Empowering Smarter Rainfall Forecasting with Machine Learning
+  </footer>
+</body>
+</html>
